@@ -1,0 +1,25 @@
+section > form {
+    margin: 10px 20px;
+}
+
+section > form > div > label {
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+section > form > div > input {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    color: var(--cinza-claro);
+    display: block;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    width: 312px;
+}
+
+
+.botoes {
+    margin-top: 30px;
+}

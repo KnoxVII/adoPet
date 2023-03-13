@@ -3,7 +3,6 @@
 @import url("/css/header.css");
 @import url("/css/main.css");
 @import url("/css/footer.css");
-@import url("/css/tela-inicial.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root {
@@ -12,7 +11,7 @@
     --branco: #FFFFFF;
     --cinza-claro: #BCBCBC;
     --cinza-escuro: #737380;
-    --creme: #FFF3DB;
+    --creme: #FCF0E3;
     --verde: #36D6AD;
     --vermelho: #FC7071;
     --vermelho-claro: #FF9D9E;
@@ -22,6 +21,7 @@
 }
 
 body {
+    background-color: var(--creme);
     background-image: url("../assets/img/forma-superior-esquerda.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -43,6 +43,7 @@ main{
     margin: auto;
     margin-bottom: 15px;
     padding: 15px;
+    text-align: center;
     text-decoration: none;
     transition: .3s;
     transition-timing-function: ease;
