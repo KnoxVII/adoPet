@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url("/css/reset.css");
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/footer.css");
+@import url("/css/tela-inicial.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    /* Cores */
+    --azul: #3772FF;
+    --branco: #FFFFFF;
+    --cinza-claro: #BCBCBC;
+    --cinza-escuro: #737380;
+    --creme: #FFF3DB;
+    --verde: #36D6AD;
+    --vermelho: #FC7071;
+    --vermelho-claro: #FF9D9E;
+
+    /* Fontes */
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("../assets/img/forma-superior-esquerda.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--fonte-principal);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100%;
+}
+
+.botoes > a {
+    background-color: var(--vermelho);
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    color: var(--branco);
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-decoration: none;
+    transition: .3s;
+    transition-timing-function: ease;
+    width: 174px;
+}
+
+.botoes > a:hover {
+    background-color: var(--vermelho-claro);
+    transform: scale(1.1);
+}
+
+
+
