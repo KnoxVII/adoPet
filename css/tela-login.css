@@ -1,5 +1,24 @@
+.principal {
+    background-image: url(../assets/img/forma-central-esquerda.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 200px;
+    width: 100vw;
+}
+
+#logo {
+    text-align: center;
+}
+
+.texto {
+    color: var(--azul);
+    text-align: center;
+    line-height: 30px;
+    margin: 0px 150px;
+}
+
 section > form {
-    margin: 10px 20px;
+    margin: 50px 20px;
 }
 
 section > form > div > label {
