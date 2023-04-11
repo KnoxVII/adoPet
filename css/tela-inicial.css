@@ -8,17 +8,23 @@ main.principal {
     background-image: url(../assets/img/forma-central-direita.svg);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: top right;
+    margin-top: 100px;
+    
 }
 
 section#logo {
-    margin: 50px;
+    margin: 24px;
+}
 
+#logo > img {
+    height: 46px;
 }
 
 .titulo {
     font-size: 1.5em;
     margin-bottom: 30px;
+    padding: 10px;
 }
 
 .paragrafo {
@@ -30,5 +36,16 @@ section#logo {
 }
 
 #ilustracao > img {
-    
+    margin-top: 10px;
+    transform: translateX(-18px);
+    transform: translatey(23px);
+}
+
+.botoes > a {
+    width: 180px;
+}
+
+footer {
+    position: relative;
+    z-index: 1000;
 }
