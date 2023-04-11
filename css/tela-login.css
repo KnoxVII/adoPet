@@ -17,13 +17,14 @@ div.icones {
 
 .principal {
     margin-top: 40px;
+    margin-bottom: 30px;
     width: 100%;
     transform: translateY(-100px);
 }
 
 #logo {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 #logo > img {
@@ -39,7 +40,7 @@ div.icones {
 }
 
 .texto > p {
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 
 section > form {
@@ -48,7 +49,7 @@ section > form {
     background-position: left bottom;
     color: var(--cinza-escuro);
     margin-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 250px;
 }
 
 section > form > div > label {
@@ -75,6 +76,14 @@ input::placeholder {
     color: var(--cinza-claro);
 }
 
+#esquecer-senha {
+    display: block;
+    color: var(--vermelho);
+    font-size: .8em;
+    text-align: center;
+}
+
 .botoes {
     margin-top: 30px;
 }
+
