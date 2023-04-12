@@ -9,35 +9,56 @@ header.cabecalho {
 
 div.icones {
     transform: translate(-50px, -45px);
+}
 
+#usuario {
+    display: block;
+    align-items: flex-end;
 }
 
 .principal {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 33px;
+    margin-bottom: 20px;
     width: 100%;
     transform: translateY(-100px);
 }
 
-#logo {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#logo > img {
-    width: 150px;
-}
-
 .texto {
     color: var(--azul);
+    font-size: 1.1em;
     line-height: 20px;
-    margin: 0px 0px 0px 33px;
+    margin: 0px 0px 0px 80px;
+    margin-bottom: 45px;
     text-align: center;
-    width: 80vw;
+    width: 60vw;
 }
 
-.texto > p {
-    margin-bottom: 45px;
+
+
+.pets {
+    display: flex;
+    justify-content: space-around;
+    color: var(--cinza-escuro);
+    line-height: 1.2em;
+    margin: 20px;
+}
+
+.nome-pet {
+    color: var(--azul);
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.cidade {
+    font-size: .7em;
+    margin-top: 30px;
+
+}
+
+.contato {
+    font-size: .6em;
 }
 
 section > form {
