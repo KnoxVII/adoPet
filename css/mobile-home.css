@@ -9,8 +9,15 @@ header.cabecalho {
     margin: 0px;
 }
 
-div.icones {
-    transform: translate(-50px, -45px);
+.icones {
+    display: flex;
+    transform: translate(-100px, -45px);
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.icones-basicos img {
+    margin-right: 60px;
 }
 
 #usuario {
