@@ -20,11 +20,18 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    background-color: var(--creme);
+    background-color: var(--branco);
     background-image: url("../assets/img/forma-superior-esquerda.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    box-sizing: border-box;
+    margin-bottom: 100px;
     font-family: var(--fonte-principal);
     width: 100vw;
 }

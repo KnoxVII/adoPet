@@ -1,5 +1,7 @@
-main {
-    height: 70vh;
+main{
+    height: auto;
+    margin-bottom: 0;
+    
 }
 
 header.cabecalho {
@@ -28,77 +30,46 @@ div.icones {
     font-size: 1.1em;
     line-height: 20px;
     margin: 0px 0px 0px 80px;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
     text-align: center;
     width: 60vw;
 }
 
-
+.container-pets {
+    color: var(--cinza-escuro);
+    font-size: .9em;
+    line-height: 1.2em;
+    margin: 0px 30px;
+}
 
 .pets {
-    display: flex;
+    display: flex;   
     justify-content: space-around;
-    color: var(--cinza-escuro);
-    line-height: 1.2em;
-    margin: 20px;
+    margin-top: 50px;
 }
 
 .nome-pet {
     color: var(--azul);
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 
 .cidade {
-    font-size: .7em;
+    font-size: .8em;
     margin-top: 30px;
 
 }
 
 .contato {
-    font-size: .6em;
-}
-
-section > form {
-    background-image: url(../assets/img/forma-central-esquerda.svg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    color: var(--cinza-escuro);
-    margin-top: 20px;
-    padding-bottom: 250px;
-}
-
-section > form > div > label {
-    display: block;
-    margin: 0px 0px 0px 0px;
-    padding: 5px;
-    text-align: center;
-}
-section > form > div > input {
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: none;
-    color: var(--cinza-claro);
-    display: block;
-    height: 40px;
-    margin: auto;
+    display: flex;
     margin-top: 5px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 312px;
 }
 
-input::placeholder {
-    color: var(--cinza-claro);
-}
-
-#esquecer-senha {
-    display: block;
-    color: var(--vermelho);
-    font-size: .8em;
-    text-align: center;
+.contato-texto {
+    font-size: .7em;
+    margin-left: 5px;
 }
 
 .botoes {
