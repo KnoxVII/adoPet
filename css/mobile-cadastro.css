@@ -1,24 +1,11 @@
-main {
-    height: 70vh;
-}
-
 header.cabecalho {
     background-image: url(../assets/img/Patas.svg);
     background-repeat: no-repeat;
     background-position: right top;
-    padding: 100px;
-    margin: 0px;
 }
 
 div.icones {
     transform: translate(-50px, -45px);
-
-}
-
-.principal {
-    margin-top: 40px;
-    width: 100%;
-    transform: translateY(-100px);
 }
 
 #logo {
@@ -31,15 +18,8 @@ div.icones {
 }
 
 .texto {
-    color: var(--azul);
-    line-height: 20px;
     margin: 0px 0px 0px 33px;
-    text-align: center;
     width: 80vw;
-}
-
-.texto > p {
-    margin-bottom: 15px;
 }
 
 section > form {
@@ -47,34 +27,5 @@ section > form {
     background-repeat: no-repeat;
     background-position: left bottom;
     color: var(--cinza-escuro);
-    margin-top: 20px;
     padding-bottom: 50px;
-}
-
-section > form > div > label {
-    display: block;
-    margin: 0px 0px 0px 0px;
-    padding: 5px;
-    text-align: center;
-}
-section > form > div > input {
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: none;
-    color: var(--cinza-claro);
-    display: block;
-    height: 40px;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 312px;
-}
-
-input::placeholder {
-    color: var(--cinza-claro);
-}
-
-.botoes {
-    margin-top: 30px;
 }

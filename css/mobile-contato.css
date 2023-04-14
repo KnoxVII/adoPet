@@ -1,5 +1,5 @@
 main {
-    height: auto;
+    height: 70vh;
 }
 
 header.cabecalho {
@@ -7,8 +7,15 @@ header.cabecalho {
     margin: 0px;
 }
 
-div.icones {
-    transform: translate(-50px, -45px);
+.icones {
+    display: flex;
+    transform: translate(-100px, -45px);
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.icones-basicos img {
+    margin-right: 60px;
 }
 
 #usuario {
@@ -19,20 +26,13 @@ div.icones {
 .principal {
     margin-top: 40px;
     width: 100%;
-}
-
-#logo {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-#logo > img {
-    width: 150px;
+    transform: translateY(-100px);
 }
 
 .texto {
     color: var(--azul);
     line-height: 20px;
+    margin: 0px 0px 0px 83px;
     text-align: center;
     width: 60vw;
 }
@@ -42,7 +42,7 @@ div.icones {
 }
 
 section > form {
-    color: var(--cinza-escuro);
+    color: var(--azul);
     font-weight: bold;
     margin-top: 20px;
     padding-bottom: 50px;
@@ -50,8 +50,8 @@ section > form {
 
 section > form > div > label {
     display: block;
+    margin: 0px 0px 0px 40px;
     padding: 5px;
-    text-align: center;
 }
 section > form > div > input {
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
