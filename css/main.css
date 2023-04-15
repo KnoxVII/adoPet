@@ -31,10 +31,8 @@ div.icones {
 }
 
 .texto {
-    /* color: var(--azul); */
     line-height: 20px;
     text-align: center;
-    /* width: 60vw; */
 }
 
 .texto > p {
