@@ -1,0 +1,65 @@
+main {
+    height: auto;
+}
+
+.icones {
+    display: flex;
+    transform: translate(-100px, -45px);
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.icones-basicos img {
+    margin-right: 60px;
+}
+
+.principal {
+    transform: translateY(-100px);
+}
+
+.texto {
+    color: var(--azul);
+    margin: 0px 0px 0px 70px;
+    width: 65vw;
+}
+
+#perfil {
+    color: var(--cinza-escuro);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foto img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.foto > p {
+    color: var(--vermelho);
+    text-align: center;
+    font-size: .7em;
+    margin-bottom: 10px;
+}
+
+section > form {
+    color: var(--azul);
+}
+
+section > form > div > label {
+    display: block;
+    padding: 5px;
+    text-align: start;
+    margin-left: 2.5em;
+}
+
+section > form > div > input {
+    text-align: start;
+}
+
+input::placeholder {
+    color: var(--cinza-claro);
+    padding-left: 20px;
+}

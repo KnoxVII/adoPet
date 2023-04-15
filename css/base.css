@@ -37,29 +37,7 @@ body {
 
 
 
-.botoes > a {
-    align-items: center;
-    background-color: var(--vermelho);
-    border-radius: 6px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
-    color: var(--branco);
-    display: flex;
-    height: 40px;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 15px;
-    padding: 0px 15px;
-    text-align: center;
-    text-decoration: none;
-    transition: .3s;
-    transition-timing-function: ease;
-    width: 130px;
-}
 
-.botoes > a:hover {
-    background-color: var(--vermelho-claro);
-    transform: scale(1.1);
-}
 
 
 

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/mobile-contato.css">
+    <link rel="stylesheet" href="css/mobile-perfil.css">
     <link rel="shortcut icon" href="assets/logo/Vector.svg" type="image/x-icon">
-    <title>Contato</title>
+    <title>Perfil</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -26,11 +26,19 @@
     <main class="principal">
 
         <section class="texto">
-            <p>Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+            <p>Esse é o perfil que aparece para os responsáveis ou ONGs que recebem sua mensagem.</p>
         </section>
 
+        <p id="perfil">Perfil</p>  
+
         <section id="formulario">
-            <form action="#" method="get">                
+            <form action="#" method="get">
+                <div class="foto">
+                    <label for="foto">Foto</label>
+                    <a href=""><img src="assets/img/Ellipse 2.svg" alt="Foto do Perfil"></a>
+                    <p>Clique na foto para editar</p>
+                </div>
+                
                 <div>
                     <label for="nome">Nome</label>
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
@@ -38,17 +46,17 @@
                 
                 <div>
                     <label for="tel">Telefone</label>
-                    <input type="tel" name="tel" id="tel" placeholder="Digite o seu telefone">
+                    <input type="tel" name="tel" id="tel" placeholder="55 11 x xxxx xxxx">
                 </div>
                 
                 <div>
-                    <label for="animal">Nome do animal</label>
-                    <input type="text" name="animal" id="animal" placeholder="Por qual animal você se interessou?">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="São Paulo">
                 </div>
 
                 <div id="mensagem">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem">
+                    <label for="sobre">Sobre</label>
+                    <textarea name="sobre" id="sobre" placeholder="Escreva sua mensagem">
                     </textarea>
 
                 <div class="botoes">
