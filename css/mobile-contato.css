@@ -2,11 +2,6 @@ main {
     height: 70vh;
 }
 
-header.cabecalho {
-    padding: 100px;
-    margin: 0px;
-}
-
 .icones {
     display: flex;
     transform: translate(-100px, -45px);
@@ -18,80 +13,17 @@ header.cabecalho {
     margin-right: 60px;
 }
 
-#usuario {
-    display: block;
-    align-items: flex-end;
-}
-
 .principal {
-    margin-top: 40px;
-    width: 100%;
     transform: translateY(-100px);
 }
 
 .texto {
     color: var(--azul);
-    line-height: 20px;
     margin: 0px 0px 0px 83px;
-    text-align: center;
     width: 60vw;
-}
-
-.texto > p {
-    margin-bottom: 15px;
 }
 
 section > form {
     color: var(--azul);
-    font-weight: bold;
-    margin-top: 20px;
-    padding-bottom: 50px;
 }
 
-section > form > div > label {
-    display: block;
-    margin: 0px 0px 0px 40px;
-    padding: 5px;
-}
-section > form > div > input {
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: none;
-    color: var(--cinza-claro);
-    display: block;
-    height: 40px;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 312px;
-}
-
-input::placeholder {
-    color: var(--cinza-claro);
-}
-
-#mensagem textarea {
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
-    border: none;
-    color: var(--cinza-claro);
-    display: block;
-    height: 172px;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    width: 312px;
-
-}
-
-#mensagem input::placeholder {
-    text-align: start;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.botoes {
-    margin-top: 30px;
-}
