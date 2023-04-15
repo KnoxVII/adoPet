@@ -13,18 +13,30 @@ main.principal {
     
 }
 
-section#logo {
-    margin: 24px;
+header.cabecalho {
+    padding: 35px;
+    margin: 0px;
 }
 
-#logo > img {
-    height: 46px;
+div.icones {
+    transform: translate(20px, 20px);
+}
+
+section#logo {
+    margin: 24px;
 }
 
 .titulo {
     font-size: 1.5em;
     margin-bottom: 30px;
     padding: 10px;
+}
+
+.texto {
+    color: var(--branco);
+    display: block;
+    line-height: 5px;
+    text-align: center;
 }
 
 .paragrafo {
@@ -45,7 +57,4 @@ section#logo {
     width: 180px;
 }
 
-footer {
-    position: relative;
-    z-index: 1000;
-}
+
