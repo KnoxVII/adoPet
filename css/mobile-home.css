@@ -9,15 +9,9 @@
     margin-right: 60px;
 }
 
-#usuario {
-    display: block;
-    align-items: flex-end;
-}
-
 .principal {
     margin-top: 33px;
     margin-bottom: 20px;
-    width: 100%;
     transform: translateY(-100px);
 }
 
@@ -67,8 +61,3 @@
     font-size: .7em;
     margin-left: 5px;
 }
-
-.botoes {
-    margin-top: 30px;
-}
-
