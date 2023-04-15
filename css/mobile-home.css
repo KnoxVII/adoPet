@@ -1,14 +1,3 @@
-main{
-    height: auto;
-    margin-bottom: 0;
-    
-}
-
-header.cabecalho {
-    padding: 100px;
-    margin: 0px;
-}
-
 .icones {
     display: flex;
     transform: translate(-100px, -45px);

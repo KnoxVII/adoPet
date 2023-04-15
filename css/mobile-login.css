@@ -4,10 +4,6 @@ header.cabecalho {
     background-position: right top;
 }
 
-div.icones {
-    transform: translate(-50px, -45px);
-}
-
 .principal {
     margin-bottom: 30px;
     transform: translateY(-100px);
@@ -23,6 +19,7 @@ div.icones {
 }
 
 .texto {
+    color: var(--azul);
     margin: 0px 0px 0px 33px;
     width: 80vw;
 }
@@ -45,7 +42,4 @@ section > form {
     text-align: center;
 }
 
-.botoes {
-    margin-top: 30px;
-}
 
