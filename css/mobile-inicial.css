@@ -47,6 +47,10 @@ section#logo {
     width: 220px;
 }
 
+#paragrafo_media-query {
+    display: none;
+}
+
 #ilustracao > img {
     margin-top: 10px;
     transform: translateX(-18px);

@@ -1,0 +1,102 @@
+@charset "UTF-9";
+
+/* TABLET */
+@media screen and (min-width: 560px) and (max-width: 992px) {
+    body {
+        background-size: 600px;       
+    }
+    
+    main.principal {
+        background-size: 100px;       
+        margin-top: 140px;
+    }
+
+    .paragrafo {
+        display: none;
+    }
+
+    #paragrafo_media-query {
+        display: block;
+        line-height: 25px;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 335px;
+    }
+
+    .botoes > a {
+        width: 280px;
+    }
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    html {
+        height: 100vh;
+    }
+    
+    body {
+        background-size: 500px; 
+    }
+    
+    main.principal {
+        background-size: 100px;       
+        margin-top: 100px;
+    }
+
+    .paragrafo {
+        display: none;
+    }
+
+    #paragrafo_media-query {
+        display: block;
+        line-height: 25px;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    
+    .botoes > a {
+        width: 280px;
+    }
+
+    footer {
+        height: 84px;
+    }
+}
+
+/* TELAS GRANDES */
+@media screen and (min-width: 1200px) {
+    html {
+        height: 100vh;
+    }
+    
+    body {
+        background-size: 500px; 
+    }
+    
+    main.principal {
+        background-size: 100px;       
+        margin-top: 100px;
+    }
+
+    .paragrafo {
+        display: none;
+    }
+
+    #paragrafo_media-query {
+        display: block;
+        line-height: 25px;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    
+    .botoes > a {
+        width: 280px;
+    }
+
+    footer {
+        height: 84px;
+    }
+}
