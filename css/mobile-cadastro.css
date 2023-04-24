@@ -19,7 +19,7 @@ div.icones {
 
 .texto {
     color: var(--azul);
-    margin: 0px 0px 0px 33px;
+    /* margin: 0px 0px 0px 33px; */
     width: 80vw;
 }
 
