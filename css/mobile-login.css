@@ -20,7 +20,8 @@ header.cabecalho {
 
 .texto {
     color: var(--azul);
-    margin: 0px 0px 0px 33px;
+    display: block;
+    margin: auto;
     width: 80vw;
 }
 

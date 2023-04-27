@@ -9,6 +9,7 @@ header.cabecalho {
 
 div.icones {
     transform: translate(-90px, -45px);
+    margin-left: 10px;
 }
 
 #usuario {
