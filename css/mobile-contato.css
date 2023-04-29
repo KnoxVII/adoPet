@@ -2,7 +2,7 @@ main {
     height: 70vh;
 }
 
-.icones {
+div.icones {
     display: flex;
     transform: translate(-100px, -45px);
     justify-content: space-around;
@@ -19,7 +19,8 @@ main {
 
 .texto {
     color: var(--azul);
-    margin: 0px 0px 0px 83px;
+    display: block;
+    margin: auto;
     width: 60vw;
 }
 
