@@ -19,7 +19,8 @@ main {
 
 .texto {
     color: var(--azul);
-    margin: 0px 0px 0px 70px;
+    display: block;
+    margin: auto;
     width: 65vw;
 }
 
