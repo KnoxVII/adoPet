@@ -1,8 +1,15 @@
-.cabecalho {
-    margin: 3em;
+header.cabecalho {
+    padding: 100px;
+    position: sticky;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
-.icones {
-    align-items: center;
+div.icones {
+    transform: translate(-90px, -45px);
+    margin-left: 20px;
     display: flex;
+    gap: 100px;
+    width: 100vw;
 }
+

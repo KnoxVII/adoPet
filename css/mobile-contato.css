@@ -3,14 +3,15 @@ main {
 }
 
 div.icones {
-    display: flex;
-    transform: translate(-100px, -45px);
-    justify-content: space-around;
-    width: 100vw;
+    align-items: center;
 }
 
 .icones-basicos img {
     margin-right: 60px;
+}
+
+.usuario {
+
 }
 
 .principal {

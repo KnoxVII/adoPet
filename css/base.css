@@ -30,9 +30,11 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     box-sizing: border-box;
-    margin-bottom: 100px;
     font-family: var(--fonte-principal);
+    height: 100vh;
+    margin-bottom: 100px;
 }
+
 
 
 

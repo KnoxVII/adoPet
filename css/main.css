@@ -2,24 +2,12 @@ main {
     height: auto;
 }
 
-header.cabecalho {
-    padding: 100px;
-    margin: 0px;
-}
-
-div.icones {
-    transform: translate(-90px, -45px);
-    margin-left: 10px;
-    width: 100vw;
-}
-
 #usuario {
     display: block;
     align-items: flex-end;
 }
 
 .principal {
-    margin-top: 40px;
     width: 100%;
 }
 
