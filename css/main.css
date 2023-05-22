@@ -1,5 +1,6 @@
 main {
     height: auto;
+    width: 100%;
 }
 
 #usuario {
@@ -8,6 +9,7 @@ main {
 }
 
 .principal {
+    margin-top: 200px;
     width: 100%;
 }
 

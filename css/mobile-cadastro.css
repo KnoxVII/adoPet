@@ -5,7 +5,12 @@ header.cabecalho {
 }
 
 div.icones {
-    transform: translate(-50px, -45px);
+    align-items: center;
+}
+
+.icones-basicos img {
+    margin-right: 60px;
+    justify-content: center;
 }
 
 #logo {

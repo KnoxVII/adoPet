@@ -1,5 +1,5 @@
 main {
-    height: 70vh;
+    height: 80vh;
 }
 
 div.icones {
@@ -11,7 +11,8 @@ div.icones {
 }
 
 .usuario {
-
+    margin-right: 20px;
+    
 }
 
 .principal {
