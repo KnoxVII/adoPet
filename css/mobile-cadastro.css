@@ -8,8 +8,15 @@ div.icones {
     align-items: center;
 }
 
+div.icones-basicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(-100%);
+}
+
 .icones-basicos img {
-    margin-right: 60px;
+    margin-right: 100px;
     justify-content: center;
 }
 
