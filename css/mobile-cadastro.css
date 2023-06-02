@@ -2,6 +2,7 @@ header.cabecalho {
     background-image: url(../assets/img/Patas.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    height: 27vh;
 }
 
 div.icones {
@@ -12,10 +13,10 @@ div.icones-basicos {
     display: flex;
     flex-direction: row;
     transform: translate(-10%, -100%)
-
 }
 
 .icones-basicos img {
+    display: flex;
     margin-right: 100px;
     justify-content: center;
 }

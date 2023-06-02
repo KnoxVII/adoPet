@@ -1,13 +1,20 @@
 main {
-    height: 80vh;
+    height: 100%;
 }
 
 div.icones {
     align-items: center;
 }
 
+div.icones-basicos {
+    display: flex;
+    flex-direction: row;
+}
+
 .icones-basicos img {
-    margin-right: 60px;
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
 }
 
 .usuario {
@@ -16,7 +23,7 @@ div.icones {
 }
 
 .principal {
-    transform: translateY(-100px);
+    margin-top: 50px;
 }
 
 .texto {
