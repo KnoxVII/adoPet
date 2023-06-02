@@ -11,6 +11,17 @@
         background-position: right top;
         background-size: 200px;
     }
+
+    .icones {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-top:40px;
+    }
+    
+    .icones-basicos img {
+        margin-right: 100px;
+    }
     
     main.principal {
         background-size: 100px;       

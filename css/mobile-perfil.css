@@ -2,15 +2,20 @@ main {
     height: auto;
 }
 
-.icones {
+div.icones {
+    align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 50px ;
     width: 100%;
-    padding-top:40px;
 }
 
 .icones-basicos img {
     margin-right: 60px;
+}
+
+#usuario img {
+    width: 40px;
 }
 
 .principal {
