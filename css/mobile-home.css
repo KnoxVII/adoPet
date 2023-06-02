@@ -1,16 +1,15 @@
 .icones {
-    display: flex;
-    transform: translate(-100px, -45px);
-    justify-content: space-around;
-    width: 100vw;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .icones-basicos img {
     margin-right: 60px;
+    transform: translateX(-100%);
 }
 
 .principal {
-    margin-top: 33px;
+    margin-top: 150px;
     margin-bottom: 20px;
     transform: translateY(-100px);
 }
