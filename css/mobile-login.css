@@ -2,11 +2,17 @@ header.cabecalho {
     background-image: url(../assets/img/Patas.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    height: 27vh;
+}
+
+div.icones {
+    align-items: center;
+    transform: translate(-90px, -30px)
 }
 
 .principal {
     margin-bottom: 30px;
-    transform: translateY(-100px);
+    transform: translateY(-30px);
 }
 
 #logo {
