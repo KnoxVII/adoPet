@@ -19,7 +19,7 @@ header.cabecalho {
 }
 
 div.icones {
-    transform: translate(20px, 20px);
+    transform: translate(-30%);
 }
 
 section#logo {
