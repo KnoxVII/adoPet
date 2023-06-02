@@ -35,8 +35,10 @@ section > form {
     padding-bottom: 50px;
 }
 
-section > form > div > label {
-    display: block;
+section label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 5px;
     text-align: center;
 }
