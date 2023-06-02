@@ -11,8 +11,8 @@ div.icones {
 div.icones-basicos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    transform: translateY(-100%);
+    transform: translate(-10%, -100%)
+
 }
 
 .icones-basicos img {

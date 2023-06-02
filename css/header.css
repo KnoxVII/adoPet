@@ -1,16 +1,17 @@
 header.cabecalho {
-    padding: 71px;
+    padding: ;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
+    height: 27vh;
     width: 100%;
 }
 
 div.icones {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
 }
 
